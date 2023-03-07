@@ -8,7 +8,7 @@ const About = () => {
         <h1>About</h1>
         <p>This project was built to learn the use of Context API and React.</p>
         <br />
-        <a href="https://israelmitolu.hashnode.dev" target="_blank">
+        <a href="https://israelmitolu.hashnode.dev" target="_blank" rel="noreferrer">
           Read the article here
         </a>
         <br />
