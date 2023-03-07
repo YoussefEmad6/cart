@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { formatCurrency } from "../utils";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import CartContext from "../Context/Cart/CartContext";
 
 const Checkout = () => {
-  const { clearCart, handleCheckout, itemCount, total, cartItems, favoitems } =
+  const { clearCart, handleCheckout, itemCount, total } =
     useContext(CartContext);
 // console.log(favoitems)
   return (

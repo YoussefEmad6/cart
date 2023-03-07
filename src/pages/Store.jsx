@@ -2,7 +2,7 @@ import { products } from "../data";
 import styled from "styled-components";
 import ProductCard from "../components/ProductCard";
 import CartContext from "../Context/Cart/CartContext";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 const Store = () => {
   const { cartItems } = useContext(CartContext);
   console.log(cartItems);

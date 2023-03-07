@@ -24,7 +24,7 @@ const Navbar = () => {
   }, []);
 
   // Extract itemscount from CartContext
-  const { cartItems, itemCount } = useContext(CartContext);
+  const { itemCount } = useContext(CartContext);
 
   return (
     <Nav>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <a href="https://twitter.com/israelmitolu" target="_blank">
+                <a href="https://twitter.com/israelmitolu" target="_blank" rel="noreferrer">
                   Contact
                 </a>
               </NavItem>

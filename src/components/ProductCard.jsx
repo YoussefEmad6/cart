@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+
 import { formatCurrency } from "../utils";
 import CartContext from "../Context/Cart/CartContext";
 import { useContext } from "react";
@@ -9,8 +9,6 @@ const ProductCard = ({ product }) => {
     addToCart,
     increase,
     cartItems,
-    sumItems,
-    itemCount,
     favoritfavoAdd,
     favoritfavoRem,
     favoitems,
